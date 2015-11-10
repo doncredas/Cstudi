@@ -1,0 +1,18 @@
+Esercizio 1 (Programmazione in C, 8 punti)
+
+Scrivere un programma in C per la gestione di matrici di interi, che contenga i seguenti metodi:
+Una funzione create, che riceve due interi (dimensione di righe e colonne),
+crea una matrice delle dimensioni indicate, e restituisce il suo puntatore.
+1) Un metodo read per la lettura di una matrice da tastiera.
+2) Un metodo print per la stampa della matrice su output.
+3) Un metodo analizza_matrice che riceve come argomenti un vettore e altri parametri e restituisce
+(in maniera opportuna usando i puntatori) 2 interi, mediaMatrice e minMatriceVettore:
+
+mediaMatrice è un intero che rappresenta il numero di colonne della matrice, la cui somma degli elementi
+è minore della media dei valori di tutta la matrice.
+
+minMatriceVettore è il numero di righe della matrice i cui elementi in posizione dispari sono minori
+ai corrispondenti  elementi del vettore (sempre in posizione dispari). Per semplicità si suppone che
+la dimensione del vettore è uguale al numero di  colonne  della matrice.
+
+4) Il metodo main che dichiara e alloca la matrice e il vettore  e invoca opportunamente i metodi precedenti.
